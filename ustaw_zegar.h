@@ -13,3 +13,4 @@ aby przed includowaniem <libpic30.h>, potrzebne to jest do wyliczania delay-i*/
 void ustaw_zegar(void) ;
 
 #endif	/* USTAW_ZEGAR_H */
+
