@@ -1,1 +1,1 @@
-# read more for strefapic@blogspot.com
+read more for strefapic@blogspot.com
