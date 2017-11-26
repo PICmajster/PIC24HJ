@@ -1,4 +1,4 @@
-/*****************************************************************************
+cje /*****************************************************************************
   FileName:        main.c
   Processor:       PIC24HJ128GP502
   Compiler:        XC16 ver 1.30
@@ -9,7 +9,7 @@
 #include "xc.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h> /*dyrektywy uint8_t itp*/
+#include <stdint.h> /*definicje typów uint8_t itp*/
 #include <string.h>
 #include "ustaw_zegar.h" /*tutaj m.in ustawione FCY*/
 #include <libpic30.h> /*dostep do delay-i,musi byc po zaincludowaniu ustaw_zegar.h*/
