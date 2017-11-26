@@ -5,10 +5,10 @@
  *****************************************************************************/
     /*Ustawiamy zegar wewnetrzny na ok 40 MHz (dokladnie na 39.61375 MHz*/
     #include "xc.h" /* wykrywa rodzaj procka i includuje odpowiedni plik 
-    nagl體kowy "p24HJ128GP502.h"*/
+    nagl贸wkowy "p24HJ128GP502.h"*/
     #include <stdio.h>
     #include <stdlib.h>
-    #include <stdint.h> /*dyrektywy do uint8_t itp*/
+    #include <stdint.h> /*definicje typ贸w uint8_t itp*/
     #include "ustaw_zegar.h" /*z uwagi na FCY musi byc przed #include <libpic30.h>*/
 
     /*definicja funkcji*/
@@ -40,7 +40,7 @@
     CLKDIVbits.PLLPOST=0 ; //N2=2, tutaj 158.455 MHz / 2 = 79.2275 MHz (Fosc)
     /*   
     * UWAGA przerwania musza byc wylaczone podczas wywolywania ponizszych 
-    * dw骳h funkcji __builtin_write_...brak definicji w pliku nagl體kowym
+    * dw贸ch funkcji __builtin_write_...brak definicji w pliku nagl贸wkowym
     * to wewnetrzne funkcje kompilatora patrz help M-LAB IDE
     * i datasheet str 140(11.6.3.1 Control Register Lock)
     */
